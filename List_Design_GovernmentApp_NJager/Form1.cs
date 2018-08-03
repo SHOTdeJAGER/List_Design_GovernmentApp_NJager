@@ -27,6 +27,8 @@ namespace List_Design_GovernmentApp_NJager
             {
                 this.lstBxState.Items.Add(newPayCalculator.stateNameArray[i]);
             }
+
+            setVisibility(false); //hides the final text boxes prior to calculations 
         }
 
         //event handles that gets the state from the list box 
@@ -54,6 +56,7 @@ namespace List_Design_GovernmentApp_NJager
                 txtBxHourlyRate.Text = "0";
                 txtBxHourlyRate.Focus();
             }
+
 
             if (hrsWorked > 0)
             {
