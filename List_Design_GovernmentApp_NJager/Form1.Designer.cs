@@ -52,155 +52,199 @@
             // 
             // lstBxState
             // 
+            this.lstBxState.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstBxState.FormattingEnabled = true;
-            this.lstBxState.Location = new System.Drawing.Point(86, 56);
+            this.lstBxState.ItemHeight = 19;
+            this.lstBxState.Location = new System.Drawing.Point(112, 129);
+            this.lstBxState.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstBxState.Name = "lstBxState";
-            this.lstBxState.Size = new System.Drawing.Size(62, 82);
+            this.lstBxState.Size = new System.Drawing.Size(150, 156);
             this.lstBxState.TabIndex = 0;
             this.lstBxState.SelectedIndexChanged += new System.EventHandler(this.lstBxState_SelectedIndexChanged);
             // 
             // lblStateSelection
             // 
             this.lblStateSelection.AutoSize = true;
-            this.lblStateSelection.Location = new System.Drawing.Point(83, 29);
+            this.lblStateSelection.BackColor = System.Drawing.Color.White;
+            this.lblStateSelection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblStateSelection.Font = new System.Drawing.Font("Ink Free", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStateSelection.Location = new System.Drawing.Point(119, 82);
+            this.lblStateSelection.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblStateSelection.Name = "lblStateSelection";
-            this.lblStateSelection.Size = new System.Drawing.Size(65, 13);
+            this.lblStateSelection.Size = new System.Drawing.Size(122, 23);
             this.lblStateSelection.TabIndex = 1;
             this.lblStateSelection.Text = "Select State";
             // 
             // lblHours
             // 
             this.lblHours.AutoSize = true;
-            this.lblHours.Location = new System.Drawing.Point(250, 56);
+            this.lblHours.BackColor = System.Drawing.Color.White;
+            this.lblHours.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHours.Location = new System.Drawing.Point(374, 82);
+            this.lblHours.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHours.Name = "lblHours";
-            this.lblHours.Size = new System.Drawing.Size(107, 13);
+            this.lblHours.Size = new System.Drawing.Size(155, 19);
             this.lblHours.TabIndex = 2;
             this.lblHours.Text = "Enter Hours Worked:";
             // 
             // txtBxHours
             // 
-            this.txtBxHours.Location = new System.Drawing.Point(389, 49);
+            this.txtBxHours.BackColor = System.Drawing.Color.White;
+            this.txtBxHours.Location = new System.Drawing.Point(583, 72);
+            this.txtBxHours.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxHours.Name = "txtBxHours";
-            this.txtBxHours.Size = new System.Drawing.Size(100, 20);
+            this.txtBxHours.Size = new System.Drawing.Size(148, 26);
             this.txtBxHours.TabIndex = 3;
             // 
             // lblHourlyRate
             // 
             this.lblHourlyRate.AutoSize = true;
-            this.lblHourlyRate.Location = new System.Drawing.Point(263, 90);
+            this.lblHourlyRate.BackColor = System.Drawing.Color.White;
+            this.lblHourlyRate.Location = new System.Drawing.Point(394, 132);
+            this.lblHourlyRate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHourlyRate.Name = "lblHourlyRate";
-            this.lblHourlyRate.Size = new System.Drawing.Size(94, 13);
+            this.lblHourlyRate.Size = new System.Drawing.Size(143, 19);
             this.lblHourlyRate.TabIndex = 4;
             this.lblHourlyRate.Text = "Enter Hourly Rate:\r\n";
             // 
             // txtBxHourlyRate
             // 
-            this.txtBxHourlyRate.Location = new System.Drawing.Point(389, 90);
+            this.txtBxHourlyRate.BackColor = System.Drawing.Color.White;
+            this.txtBxHourlyRate.Location = new System.Drawing.Point(583, 132);
+            this.txtBxHourlyRate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxHourlyRate.Name = "txtBxHourlyRate";
-            this.txtBxHourlyRate.Size = new System.Drawing.Size(100, 20);
+            this.txtBxHourlyRate.Size = new System.Drawing.Size(148, 26);
             this.txtBxHourlyRate.TabIndex = 5;
             // 
             // lblGrossPay
             // 
             this.lblGrossPay.AutoSize = true;
-            this.lblGrossPay.Location = new System.Drawing.Point(299, 182);
+            this.lblGrossPay.BackColor = System.Drawing.Color.White;
+            this.lblGrossPay.Location = new System.Drawing.Point(448, 266);
+            this.lblGrossPay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGrossPay.Name = "lblGrossPay";
-            this.lblGrossPay.Size = new System.Drawing.Size(58, 13);
+            this.lblGrossPay.Size = new System.Drawing.Size(85, 19);
             this.lblGrossPay.TabIndex = 6;
             this.lblGrossPay.Text = "Gross Pay:";
             // 
             // txtBxGrossPay
             // 
-            this.txtBxGrossPay.Location = new System.Drawing.Point(389, 175);
+            this.txtBxGrossPay.BackColor = System.Drawing.Color.White;
+            this.txtBxGrossPay.Location = new System.Drawing.Point(583, 256);
+            this.txtBxGrossPay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxGrossPay.Name = "txtBxGrossPay";
-            this.txtBxGrossPay.Size = new System.Drawing.Size(100, 20);
+            this.txtBxGrossPay.Size = new System.Drawing.Size(148, 26);
             this.txtBxGrossPay.TabIndex = 7;
             // 
             // lblFica
             // 
             this.lblFica.AutoSize = true;
-            this.lblFica.Location = new System.Drawing.Point(303, 213);
+            this.lblFica.BackColor = System.Drawing.Color.White;
+            this.lblFica.Location = new System.Drawing.Point(454, 312);
+            this.lblFica.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFica.Name = "lblFica";
-            this.lblFica.Size = new System.Drawing.Size(54, 13);
+            this.lblFica.Size = new System.Drawing.Size(86, 19);
             this.lblFica.TabIndex = 8;
             this.lblFica.Text = "FICA Tax:";
             // 
             // txtBxFica
             // 
-            this.txtBxFica.Location = new System.Drawing.Point(389, 206);
+            this.txtBxFica.BackColor = System.Drawing.Color.White;
+            this.txtBxFica.Location = new System.Drawing.Point(583, 301);
+            this.txtBxFica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxFica.Name = "txtBxFica";
-            this.txtBxFica.Size = new System.Drawing.Size(100, 20);
+            this.txtBxFica.Size = new System.Drawing.Size(148, 26);
             this.txtBxFica.TabIndex = 9;
             // 
             // txtBxFed
             // 
-            this.txtBxFed.Location = new System.Drawing.Point(389, 242);
+            this.txtBxFed.BackColor = System.Drawing.Color.White;
+            this.txtBxFed.Location = new System.Drawing.Point(583, 353);
+            this.txtBxFed.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxFed.Name = "txtBxFed";
-            this.txtBxFed.Size = new System.Drawing.Size(100, 20);
+            this.txtBxFed.Size = new System.Drawing.Size(148, 26);
             this.txtBxFed.TabIndex = 10;
             // 
             // lblFed
             // 
             this.lblFed.AutoSize = true;
-            this.lblFed.Location = new System.Drawing.Point(291, 249);
+            this.lblFed.BackColor = System.Drawing.Color.White;
+            this.lblFed.Location = new System.Drawing.Point(436, 364);
+            this.lblFed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFed.Name = "lblFed";
-            this.lblFed.Size = new System.Drawing.Size(66, 13);
+            this.lblFed.Size = new System.Drawing.Size(100, 19);
             this.lblFed.TabIndex = 11;
             this.lblFed.Text = "Federal Tax:\r\n";
             // 
             // lblState
             // 
             this.lblState.AutoSize = true;
-            this.lblState.Location = new System.Drawing.Point(303, 281);
+            this.lblState.BackColor = System.Drawing.Color.White;
+            this.lblState.Location = new System.Drawing.Point(454, 410);
+            this.lblState.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(56, 13);
+            this.lblState.Size = new System.Drawing.Size(88, 19);
             this.lblState.TabIndex = 12;
             this.lblState.Text = "State Tax:\r\n";
             // 
             // txtBxState
             // 
-            this.txtBxState.Location = new System.Drawing.Point(389, 274);
+            this.txtBxState.BackColor = System.Drawing.Color.White;
+            this.txtBxState.Location = new System.Drawing.Point(583, 400);
+            this.txtBxState.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxState.Name = "txtBxState";
-            this.txtBxState.Size = new System.Drawing.Size(100, 20);
+            this.txtBxState.Size = new System.Drawing.Size(148, 26);
             this.txtBxState.TabIndex = 13;
             // 
             // lblHealth
             // 
             this.lblHealth.AutoSize = true;
-            this.lblHealth.Location = new System.Drawing.Point(291, 313);
+            this.lblHealth.BackColor = System.Drawing.Color.White;
+            this.lblHealth.Location = new System.Drawing.Point(436, 457);
+            this.lblHealth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHealth.Name = "lblHealth";
-            this.lblHealth.Size = new System.Drawing.Size(66, 13);
+            this.lblHealth.Size = new System.Drawing.Size(101, 19);
             this.lblHealth.TabIndex = 14;
             this.lblHealth.Text = "Health Care ";
             // 
             // txtBxHealth
             // 
-            this.txtBxHealth.Location = new System.Drawing.Point(389, 306);
+            this.txtBxHealth.BackColor = System.Drawing.Color.White;
+            this.txtBxHealth.Location = new System.Drawing.Point(583, 447);
+            this.txtBxHealth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxHealth.Name = "txtBxHealth";
-            this.txtBxHealth.Size = new System.Drawing.Size(100, 20);
+            this.txtBxHealth.Size = new System.Drawing.Size(148, 26);
             this.txtBxHealth.TabIndex = 15;
             // 
             // lblNetPay
             // 
             this.lblNetPay.AutoSize = true;
-            this.lblNetPay.Location = new System.Drawing.Point(309, 348);
+            this.lblNetPay.BackColor = System.Drawing.Color.White;
+            this.lblNetPay.Location = new System.Drawing.Point(463, 509);
+            this.lblNetPay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNetPay.Name = "lblNetPay";
-            this.lblNetPay.Size = new System.Drawing.Size(48, 13);
+            this.lblNetPay.Size = new System.Drawing.Size(71, 19);
             this.lblNetPay.TabIndex = 16;
             this.lblNetPay.Text = "Net Pay \r\n";
             // 
             // txtBxNetPay
             // 
-            this.txtBxNetPay.Location = new System.Drawing.Point(389, 341);
+            this.txtBxNetPay.BackColor = System.Drawing.Color.White;
+            this.txtBxNetPay.Location = new System.Drawing.Point(583, 498);
+            this.txtBxNetPay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBxNetPay.Name = "txtBxNetPay";
-            this.txtBxNetPay.Size = new System.Drawing.Size(100, 20);
+            this.txtBxNetPay.Size = new System.Drawing.Size(148, 26);
             this.txtBxNetPay.TabIndex = 17;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(588, 46);
+            this.btnCalculate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnCalculate.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.btnCalculate.FlatAppearance.BorderSize = 3;
+            this.btnCalculate.Location = new System.Drawing.Point(882, 67);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.Size = new System.Drawing.Size(112, 34);
             this.btnCalculate.TabIndex = 18;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -208,9 +252,10 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(588, 87);
+            this.btnReset.Location = new System.Drawing.Point(882, 127);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.Size = new System.Drawing.Size(112, 34);
             this.btnReset.TabIndex = 19;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -218,9 +263,11 @@
             // 
             // PayCalculatorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1201, 657);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtBxNetPay);
@@ -241,6 +288,8 @@
             this.Controls.Add(this.lblHours);
             this.Controls.Add(this.lblStateSelection);
             this.Controls.Add(this.lstBxState);
+            this.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PayCalculatorForm";
             this.Text = "How Much is the Government Robbing You?";
             this.Load += new System.EventHandler(this.StateGUI_Load);
